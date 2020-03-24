@@ -30,10 +30,10 @@ pygame.display.set_caption("testgame")
 main_screen.fill(powderblue)
 
 #Trollface pics
-troll_face = pygame.image.load(os.path.join('/home/sup/code/python/pygame_things/images/', 'troll.png'))
+troll_face = pygame.image.load('images/troll.png')
 troll_face = pygame.transform.scale(troll_face, image_size)
 
-sad_troll = pygame.image.load(os.path.join('/home/sup/code/python/pygame_things/images/', 'sad_troll.png'))
+sad_troll = pygame.image.load('images/sad_troll.png')
 sad_troll = pygame.transform.scale(sad_troll, image_size)
 
 def clear_screen():
